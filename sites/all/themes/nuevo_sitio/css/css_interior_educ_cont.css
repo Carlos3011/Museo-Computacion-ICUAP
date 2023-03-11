@@ -1,0 +1,104 @@
+.page-educacion-continua .l-content {
+	width: 1100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-educacion-continua .l-content h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1150px) {
+	input#edit-field-fecha-d-a-value-value-datepicker-popup-0, input#edit-field-fecha-d-a-value-1-value-datepicker-popup-0 {
+		padding: 5px;
+		font-size: 16px;
+		margin-bottom: 5px;
+		margin-top: 4px;
+		width: 105px;
+	
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+	input#edit-field-fecha-d-a-value-value-datepicker-popup-0, input#edit-field-fecha-d-a-value-1-value-datepicker-popup-0 {
+		width: 105px;
+	}
+	.page-educacion-continua select#edit-field-categor-a-tid.form-select {
+		padding: 0 !important;
+	}
+}
+
+.page-educacion-continua .l-content .views-row {
+    height: 300px;
+    width: 275px;
+    float: left;
+    text-align: center;
+    margin-bottom: 75px;
+	
+	}
+	
+	.page-educacion-continua .l-content .views-field-title {
+		font-size: 18px !important;
+			width: 180px;
+	margin: 0 auto;
+	}
+	
+	.page-educacion-continua .l-content .views-field-view-node a {
+    color:  #003b5c;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+	}
+	
+	.page-educacion-continua .pager {
+	color:#00b5e2;
+	
+}
+
+.page-educacion-continua .pager a{
+	color:#003b5c;
+	text-decoration: none;
+}
+	
+@media only screen and (max-width: 1149px) {
+	.page-educacion-continua .l-content {
+		width: 850px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 866px) {
+	.page-educacion-continua .l-content {
+		width: 570px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.page-educacion-continua .l-content {
+		width: 275px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.page-educacion-continua select#edit-field-categor-a-tid.form-select {
+	padding: 5px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.page-educacion-continua .views-widget .description {
+	display: none;
+}

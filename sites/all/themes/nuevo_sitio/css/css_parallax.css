@@ -1,0 +1,125 @@
+
+ 
+ .parallax{
+	
+	 width: 100%;
+	 margin: 0 auto;
+ }
+ 
+ .l-content-c-events{
+	 zoom: .9;
+ }
+ .l-content-c-convocations{
+	 zoom: .9;
+ }
+ 
+ 
+@media only screen and (min-width: 1150px) {
+
+
+    .slider_general .views-field-title a, .slider_general .views-field-views-conditional a{
+		animation: fadein-left 3s;
+		-moz-animation: fadein-left 3s; /* Firefox */
+		-webkit-animation: fadein-left 3s; /* Safari and Chrome */
+		-o-animation: fadein-left 3s; /* Opera */
+	
+}
+
+
+.slider_general .views-field-view-node a, .slider_general .views-field-views-conditional-1 a {
+		animation: fadein-right 3s;
+		-moz-animation: fadein-right 3s; /* Firefox */
+		-webkit-animation: fadein-right 3s; /* Safari and Chrome */
+		-o-animation: fadein-right 3s; /* Opera */
+	
+}
+}
+
+@media only screen and (max-width: 1149px) {
+    .l-main {
+        overflow-x: hidden;
+    }
+}
+
+
+@keyframes fadein-left {
+    from {
+		left: 150px;
+        opacity:0;
+    }
+    to {
+		left: 0px;
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein-left { /* Firefox */
+    from {
+		left: 150px;
+        opacity:0;
+    }
+    to {
+		left: 0;
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein-left { /* Safari and Chrome */
+       from {
+		left: 150px;
+        opacity:0;
+    }
+    to {
+		left: 0;
+        opacity:1;
+    }
+}
+@-o-keyframes fadein-left { /* Opera */
+	from {
+		left: 150px;
+        opacity:0;
+    }
+    to {
+		left: 0;
+        opacity:1;
+    }
+}
+
+@keyframes fadein-right {
+    from {
+		right: 150px;
+        opacity:0;
+    }
+    to {
+		right: 0px;
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein-right { /* Firefox */
+    from {
+		right: 150px;
+        opacity:0;
+    }
+    to {
+		right: 0;
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein-right { /* Safari and Chrome */
+       from {
+		right: 150px;
+        opacity:0;
+    }
+    to {
+		right: 0;
+        opacity:1;
+    }
+}
+@-o-keyframes fadein-right { /* Opera */
+	from {
+		right: 150px;
+        opacity:0;
+    }
+    to {
+		right: 0;
+        opacity:1;
+    }
+}

@@ -1,0 +1,144 @@
+.sidr-class-redes_responsive{
+	text-align: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+}
+
+.sidr-class-redes_responsive a{
+    margin-right: 8px;
+    float: left;
+}
+
+#sidr-main img {
+	width: 34px;
+	margin-left: 5px;
+}
+
+#sidr-main .sidr-class-last {
+	margin-right: 0px;
+}
+
+#navigation{
+	display: none;
+}
+
+#mobile-header{
+	display: none;
+}
+
+.sidr ul li a:hover {
+		background-color: #00b5e2;
+	}
+
+	
+.no-link {
+	cursor: default;
+}
+
+.no-link:active{
+	pointer-events: none;
+
+}
+
+.menu_responsive {
+	font-family: sourcesans;
+	color: white;
+	margin-top: -47px;
+}
+
+.menu_responsive a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu_responsive .menu ul {
+	list-style-type: none !important;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_responsive .tb-megamenu .nav-collapse .nav > li > a {
+/* 	background-color: rgba(0,59,92,0.9) !important; */
+	color: white;
+	font-weight: normal;
+}
+
+.menu_responsive .tb-megamenu .nav-collapse .nav > li > a:hover, .menu_responsive .tb-megamenu .nav-collapse .nav > li > a:active, .menu_responsive .tb-megamenu .nav-collapse .nav > li > a:focus {
+	/* background-color: rgba(0,181,226,0.9) !important; */
+	color: white;
+	font-weight: normal;
+}
+
+
+.menu_responsive .tb-megamenu .nav-collapse {
+	width: 75%;
+	background: none;
+	right: 4px;
+
+
+}
+
+.menu_responsive .pane-5 {
+	margin-bottom: 15px;
+}
+
+.logo_buap {
+	z-index: 500;
+}
+
+.logo_buap img {
+	max-height: 67px;
+	/* max-height: 45px; */
+	width: auto;
+}
+
+.menu_responsive .tb-megamenu-button {
+	float: right;
+	margin-top: 4px;
+	margin-right: 4px
+}
+
+
+@media (min-width: 800px) {
+	.menu_responsive {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.l-menu {
+		width: 100% !important;		
+		margin: 0 !important;
+	}
+
+	.not-front .l-main {
+		padding-top: 50px;
+	}
+
+	.menu_principal .menu {
+		display: none;
+	}
+	
+	.menu_secundario {
+		display: none;
+	}
+	
+	.l-region--navigation {
+		display: none;
+	}
+	#navigation{
+	display: none;
+}
+
+
+
+.sidr-inner ul{
+	font-family: sourcesans;
+}
+
+	
+}

@@ -1,0 +1,1191 @@
+@media only screen and (min-width: 1300px) and (max-width: 1400px){
+	.redes_responsive{
+		margin-right: 18px !important;
+	}
+}
+
+@media only screen and (max-width: 1150px){
+    
+    .sidr-class-contenedor-menu{
+        line-height: 60px !important;
+    }
+    
+    .sidr-class-btn-menu{
+        margin: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1075px) and (max-width: 1300px){
+ 
+/*------------------------------------------------ Oferta Educativa ------------------------------------------------------------------*/   
+    .ofertas{
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    .ofertas img{
+        margin-bottom: 40px;
+    }
+    
+    .area{
+        width: 828px !important;
+    }
+    
+    .area .carreras{
+        width: 56% !important;
+        text-align: left;
+        max-width: 640px;
+        
+    }
+    
+/*----------------------------------------------------- Posgrado ---------------------------------------------------------------------*/   
+    
+    .contenido{
+        width: 1035px !important;
+        padding: 0 !important;
+        text-align: center;
+    }
+    
+    .contenido .fila-izq{
+        width: 100% !important;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenido .fila-der{
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        max-width: 540px;
+        display: inline-block;
+    }
+    
+    .posg-der{
+        width: 720px !important;
+        text-align: left;
+    }
+    
+    h3{
+        text-align: center;
+    }
+    
+/*---------------------------------------------------- Preparatorias --------------------------------------------------------------------*/ 
+    
+    .contenedor{
+        width: 1040px !important;
+        margin: 0 auto;
+    }
+    
+    .contenedor .fila{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contenedor .fila p{
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .fila .der{
+        width: 60% !important;
+        max-width: 645px;
+    }
+
+    .contenedor .fila .der .links{
+        padding: 25px !important;
+        text-align: left;
+    }
+    
+/*----------------------------------------------------- Institutos ---------------------------------------------------------------------*/ 
+    
+    .todo{
+        width: 100%;
+    }
+    
+    .todo h3{
+        padding: 7px 0px !important;
+        text-align: center !important;
+    }
+    
+/*---------------------------------------------- Oferta Educativa ---------------------------------------------------------------------*/      
+    .top-der{
+        height: 233px !important;  
+        text-align: left !important;
+    }
+    
+    .top-izq{
+        width: 720px !important;
+    }
+    
+    .bottom-izq{
+        padding: 19px !important;
+        margin-right: 25px !important;
+    }
+    
+    .bottom-centro{
+        padding: 19px !important;
+        margin-right: 25px !important;
+    }
+    
+    .bottom-der{
+        padding: 19px !important;
+    }
+    
+    .bottom-centro, .bottom-der  ul{
+        text-align: left !important;
+    }
+
+/*---------------------------------------------- Educación Continua ---------------------------------------------------------------------*/ 
+    
+    .views-exposed-form{
+        text-align: center;
+    }
+    
+    .views-exposed-form .views-exposed-widget{
+        float: none;
+        display: inline-block;
+    }
+    
+    /*.view-content{
+        text-align: center;
+    }*/
+    
+    .page-educacion-continua .l-content .views-row{
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1074px){
+    
+	.panel-pane.pane-custom.pane-7 img{
+		width: 100% !important;
+		height: auto !important;
+	}
+	
+    .l-region--content-news-slider .pane-vista-slider-noticia {
+	   position: relative;
+    }
+    
+    .l-region--content-news-slider{
+        min-height: auto;
+    }
+    
+    .l-region--content-news-slider .flexslider{
+        min-height: auto;
+    }
+    
+/*------------------------------------------------ Oferta Educativa ------------------------------------------------------------------*/   
+    
+    .ofertas{
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    .ofertas img{
+        margin-bottom: 40px;
+    }
+    
+    .area{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    .area .imagen{
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .area .imagen img{
+        width: 80% ;
+        height: auto !important;
+        display: inline-block;
+    }
+    
+    .area .carreras{
+        width: 80% !important;
+        height: auto !important;
+        text-align: left;
+        float: none !important;
+        display: inline-block;
+        max-width: 515px;
+    }
+    
+    .area .carreras a{
+        padding: 4px 0px !important;
+    }
+    
+/*----------------------------------------------------- Posgrado ---------------------------------------------------------------------*/   
+    
+    .contenido{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    .overlay{
+        width: auto !important;
+        text-align: left;
+    }
+    
+    .contenido .fila{
+        width: 100% !important;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .posg-izq{
+        float: none !important;
+        display: none;
+    }
+    
+    .posg-der{
+        width: 100% !important;
+        text-align: left;
+        float: none !important;
+    }
+    
+    h3{
+        text-align: center;
+    }
+    
+/*----------------------------------------------------- Institutos ---------------------------------------------------------------------*/     
+
+    .inst{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    .inst a{
+        display: inline-block !important;
+        float: none !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+/*---------------------------------------------------- Preparatorias --------------------------------------------------------------------*/ 
+    
+    .contenedor{
+        width: 100% !important;
+    }
+    
+    .contenedor .fila{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contenedor .fila p{
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .fila .izq{
+       display: none;
+    }
+    
+    .contenedor .fila .der{
+        width: 100% !important;
+        float: none !important;
+        display: inline-block;
+        max-width: 645px;
+    }
+    
+    .contenedor .fila .der .titulo{
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    
+    .contenedor .fila .der .links{
+        padding: 15px !important;
+        text-align: left;
+    }
+    
+    .titulo2 p{
+        text-align: center !important;
+        padding-right: 0 !important;
+    } 
+    
+/*----------------------------------------------------- Oferta Educativa Complejos Regionales ---------------------------------------------------------------------*/
+    
+    .todo{
+        width: 100%;
+    }
+    
+    .todo h3{
+        padding: 7px 0px !important;
+        text-align: center !important;
+    }
+    
+/*------------------------------------------------- Oferta Educativa Alfabética --------------_------------------------------------------*/ 
+
+    .contenido_basic_page h3{
+        text-indent: 0px !important;
+        padding: 7px 15px !important;
+        width: 100% !important;
+        max-width: 460px;
+    }  
+    
+/*---------------------------------------------- Semiescolarizado y a Distancia ---------------------------------------------------------*/       
+    .top-izq{
+        width: 100% !important;
+        float: none !important;
+    }
+    
+    .top-der{
+        float: none !important;
+        width: 100% !important;
+        padding: 0 !important;
+        padding-top: 25px !important;
+    }
+    
+    .bottom-izq{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+    }
+    
+    .bottom-izq p{
+        width: 95%;
+        display: inline-block;
+    }
+    
+    .bottom-centro{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 20px;
+    }
+    
+    .bottom-centro ul{
+        text-align: left !important;
+    }
+    
+    .bottom-der{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .bottom-der ul{
+        text-align: left !important;
+    }
+    
+/*---------------------------------------------- Educación Continua ---------------------------------------------------------------------*/ 
+    
+    .views-exposed-form{
+        text-align: center;
+    }
+    
+    .views-exposed-form .views-exposed-widget{
+        float: none;
+        display: inline-block;
+    }
+    
+    /*.view-content{
+        text-align: center;
+    }*/
+    
+    .page-educacion-continua .l-content .views-row{
+        float: none;
+        display: inline-block;
+    }
+    
+/*---------------------------------------------- Preparatorias ---------------------------------------------------------*/ 
+    
+    .content{
+		text-align: center;
+	}
+	
+	.overlay-datos{
+		text-align: justify;
+	}
+	
+	.columna-datos-link{
+		width: 325px;
+		display: inline-block;
+	}
+	
+	.content .fila-mapa{
+        margin-bottom: 100px;
+    }
+    
+    .content .fila-mapa #columnas .contenido-columnas{
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px 0;
+    }
+    
+    .content .fila-mapa #columnas .contenido-columnas ul{
+        padding-left: 10px;
+    }
+    
+    .content .fila-mapa #columnas #cmapa{
+        width: 100% !important;
+        height: 350px !important;
+    }
+    
+/*---------------------------------------------- Ciencia a tiempo ---------------------------------------------------------*/
+    
+    .contenedor .col-top{
+        text-align: center;    
+    }
+    
+    .contenedor .col-top img{
+        padding: 0 30px 25px 30px !important;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .playlist-ciencia{
+        width: 100% !important;
+        max-width: 655px;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .col-central{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .noticias{
+        text-align: center !important;
+    }
+    
+    .noticias .views-row{
+        width: 100% !important;
+        max-width: 300px;
+        float: none !important;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 650px){
+    
+	.panel-pane.pane-custom.pane-7 img{
+		width: 100% !important;
+		height: auto !important;
+	}
+	
+    .l-region--content-news-slider .pane-vista-slider-noticia {
+	   position: relative;
+    }
+    
+    .l-region--content-news-slider{
+        min-height: auto;
+    }
+    
+    .l-region--content-news-slider .flexslider{
+        min-height: auto;
+    }
+
+/*------------------------------------------------ Oferta Educativa ------------------------------------------------------------------*/   
+    
+    .ofertas{
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    .ofertas img{
+        margin-bottom: 40px;
+    }
+    
+    .area{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    .area .imagen{
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .area .imagen img{
+        width: 80% ;
+        height: auto !important;
+        display: inline-block;
+    }
+    
+    .area .carreras{
+        width: 80% !important;
+        height: auto !important;
+        text-align: left;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .area .carreras a{
+        padding: 4px 0px !important;
+    }
+    
+/*----------------------------------------------------- Posgrado ---------------------------------------------------------------------*/   
+    
+    .contenido{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 0 100px 0!important;
+        text-align: center;
+    }
+    
+    .overlay{
+        width: auto !important;
+        left: 0 !important;
+        height: auto;
+        position: initial !important;
+        font-size: 13px !important;
+        background: rgba(0,0,0,0.5) !important;
+        text-align: left;
+    }
+    
+    .titulo{
+        padding: 20px !important;
+        text-align: center !important;
+    }
+    
+    .menu img{
+        margin: 0 0 30px 0 !important; 
+    }
+    
+    .contenido .fila{
+        width: 100% !important;
+        float: none !important;
+        display: inline-block;
+    }
+
+    .posg-izq{
+        float: none !important;
+        display: none;
+    }
+    
+    .posg-der{
+        width: 100% !important;
+        text-align: left;
+        float: none !important;
+    }
+    
+    h3{
+        text-align: center;
+    }
+
+/*----------------------------------------------------- Institutos ---------------------------------------------------------------------*/     
+    
+    .inst{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    .inst a{
+        background-size: 100% !important;
+        width: 100% !important;
+        height: 100% !important;
+        display: inline-block !important;
+        float: none !important;
+        max-width: 380px;
+        min-width: 335px;
+        max-height: 406px;
+        min-height: 370px;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 25px;
+    }
+    
+/*---------------------------------------------------- Preparatorias --------------------------------------------------------------------*/ 
+    
+    .contenedor{
+        width: 100% !important;
+    }
+    
+    .contenedor .fila{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contenedor .fila p{
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .fila .izq{
+        display: none;
+    }
+    
+    .contenedor .fila .der{
+        width: 100% !important;
+        float: none !important;
+        max-width: 645px;
+        display: inline-block;
+    }
+    
+    .contenedor .fila .der .titulo{
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    
+    .contenedor .fila .der .links{
+        padding: 15px !important;
+        column-count: 1 !important;
+        text-align: left;
+    }
+    
+    .titulo2 p{
+        text-align: center !important;
+        padding-right: 0 !important;
+    } 
+    
+/*----------------------------------------------------- Oferta Educativa Complejos Regionales ---------------------------------------------------------------------*/ 
+  
+    .todo h3{
+        padding: 7px 0px !important;
+        text-align: center !important;
+    }
+    
+/*----------------------------------------------------- Oferta Educativa Alfabética ---------------------------------------------------------------------*/ 
+  
+    .contenido_basic_page{
+        width: 100% !important;
+    }
+    
+    .contenido_basic_page blockquote{
+        margin: 0px !important;
+        padding: 1px 0px !important;
+    }
+    
+    .contenido_basic_page a{
+        text-indent: 0px !important;
+    }
+    
+    .contenido_basic_page h3{
+        text-indent: 0px !important;
+        padding: 7px 0px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }  
+
+/*------------------------------------------------- Educación Continua ------------------------------------------------------------------*/ 
+    
+    .views-exposed-form .views-exposed-widget{
+        padding: 0.5em 0 0 0 !important;
+    }
+    
+    .page-educacion-continua select#edit-field-categor-a-tid.form-select{
+        width: 100% !important;
+    }
+    
+    .page-educacion-continua .l-content .views-row{
+        width: 100% !important;
+        
+    }
+    
+/*----------------------------------------------- Semiescolarizado ----------------------------------------------------------------------*/ 
+    
+    .fila-izq, .fila-der{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 415px;
+        max-height: 325px;
+        padding: 0 !important;
+        margin-bottom: 20px;
+        margin-left: 0 !important;
+    }
+    
+    .fila-izq ul, .fila-der ul{
+        padding-right: 20px;
+    }
+    
+/*---------------------------------------------- Semiescolarizado y a Distancia ---------------------------------------------------------*/       
+    .top-izq{
+        width: 100% !important;
+        float: none !important;
+    }
+    
+    .top-der{
+        float: none !important;
+        width: 100% !important;
+        padding: 0 !important;
+        padding-top: 25px !important;
+    }
+    
+    .bottom-izq{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+    }
+    
+    .bottom-izq p{
+        width: 92%;
+        display: inline-block;
+    }
+    
+    .bottom-centro{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 20px;
+    }
+    
+    .bottom-centro ul{
+        text-align: left !important;
+        padding-left: 30px !important;
+    }
+    
+    .bottom-der{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .bottom-der ul{
+        text-align: left !important;
+        padding-left: 30px !important;
+    }
+    
+/*---------------------------------------------- Bachillerato y Preparatorias ---------------------------------------------------------*/ 
+    
+    .content{
+        text-align: center ;
+		margin-bottom: 50px;
+    }
+	
+	.overlay-datos{
+        width: auto !important;
+        left: 0 !important;
+        height: auto !important;
+        position: initial !important;
+        font-size: 15px !important;
+        background: rgba(0,0,0,0.5) !important;
+		text-align: justify;
+    }
+	
+	.columna-introduccion{
+		width: 95%;
+		display: inline-block;
+		text-align: justify;
+	}
+	
+	.columna-link{
+		width: 100%;
+		height: 60px;
+		max-width: 325px;
+		display: inline-block;
+	}
+    
+    .content .fila-mapa{
+        width: 95% !important;
+		float: none !important;
+		display: inline-block;
+		margin-bottom: 50px;
+    }
+    
+    .content .fila-mapa #columnas .contenido-columnas{
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px 0;
+    }
+    
+    .content .fila-mapa #columnas .contenido-columnas ul{
+        padding-left: 10px;
+    }
+    
+    .content .fila-mapa #columnas #cmapa{
+        width: 100% !important;
+        height: 350px !important;
+    }
+    
+/*---------------------------------------------- Ciencia a tiempo ---------------------------------------------------------*/
+    
+     .contenedor .col-top{
+        text-align: center;    
+    }
+    
+    .contenedor .col-top img{
+        width: 250px !important;
+        padding: 0 0 25px 0 !important;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .playlist-ciencia{
+        width: 100% !important;
+        height: 300px !important;
+    }
+    
+    .contenedor .col-central{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .noticias{
+        text-align: center !important;
+    }
+    
+    .noticias .views-row{
+        width: 100% !important;
+        max-width: 300px;
+        float: none !important;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+  
+	.panel-pane.pane-custom.pane-7 img{
+		width: 100% !important;
+		height: auto !important;
+	}
+  
+  
+    .l-region--content-news-slider .pane-vista-slider-noticia {
+	   position: relative;
+    }
+    
+    .l-region--content-news-slider{
+        min-height: auto;
+    }
+    
+    .l-region--content-news-slider .flexslider{
+        min-height: auto;
+    }
+    
+/*------------------------------------------------ Oferta Educativa ------------------------------------------------------------------*/   
+    
+    .ofertas{
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    .ofertas img{
+        margin-bottom: 40px;
+    }
+    
+    .area{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    .area .imagen{
+        float: none;
+        display: inline-block;
+    }
+    
+    .area .imagen img{
+        width: 100% ;
+        height: auto !important;
+    }
+    
+    .area .carreras{
+        width: 100% !important;
+        height: auto !important;
+        text-align: left;
+    }
+    
+    .area .carreras a{
+        padding: 4px 0px !important;
+    }
+    
+/*----------------------------------------------------- Semiescolarizado ---------------------------------------------------------------------*/   
+    
+    .contenido{
+        width: 100% !important;
+        padding: 0 0 50px 0 !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    .overlay{
+        width: auto !important;
+        left: 0 !important;
+        height: auto;
+        position: initial !important;
+        font-size: 13px !important;
+        background: rgba(0,0,0,0.5) !important;
+        text-align: left;
+    }
+    
+    .menu img{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    
+    .contenido .fila{
+        width: 100% !important;
+        float: none !important;
+        display: inline-block;
+    }
+
+    .titulo{
+        padding: 20px !important;
+        text-align: center !important;
+    }
+    
+    .posg-izq{
+        float: none !important;
+        display: none;
+    }
+    
+    .posg-der{
+        width: 100% !important;
+        text-align: left;
+        float: none !important;
+    }
+    
+    h3{
+        text-align: center;
+    }
+    
+    
+    
+/*----------------------------------------------------- Institutos ---------------------------------------------------------------------*/     
+    
+    .inst{
+        width: 100% !important;
+    }
+    
+    .inst a{
+        width: 100% !important;
+        height: 100% !important;
+        background-size: 100% !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 25px;
+        min-width: 280px;
+        min-height: 325px;
+    }
+    
+/*---------------------------------------------------- Preparatorias --------------------------------------------------------------------*/ 
+    
+    .contenedor{
+        width: 100% !important;
+    }
+    
+    .contenedor .fila p{
+        width: 100% !important;
+        float: none !important;
+    }
+    
+    .contenedor .fila .izq{
+        display: none;
+    }
+    
+    .contenedor .fila .der{
+        width: 100% !important;
+        float: none !important;
+    }
+    
+    .contenedor .fila .der .titulo{
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    
+    .contenedor .fila .der .links{
+        padding: 15px !important;
+        column-count: 1 !important;
+        display: inline-block !important;
+    }
+    
+    .titulo2 p{
+        text-align: center !important;
+        padding-right: 0 !important;
+    }  
+
+/*-------------------------------------------------- Oferta Educativa Complejos Regionales ----------------------------------------------*/ 
+  
+    .todo h3{
+        padding: 7px 0px !important;
+        text-align: center !important;
+    }
+    
+/*------------------------------------- Oferta Educativa Alfabética ---------------------------------------------------------------------*/ 
+  
+    .contenido_basic_page{
+        width: 100% !important;
+    }
+    
+    .contenido_basic_page blockquote{
+        margin: 0px !important;
+        padding: 1px 0px !important;
+    }
+    
+    .contenido_basic_page a{
+        text-indent: 0px !important;
+    }
+    
+    .contenido_basic_page h3{
+        text-indent: 0px !important;
+        padding: 7px 0px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }  
+    
+/*---------------------------------------------- Educación Continua ---------------------------------------------------------------------*/ 
+    
+    .views-exposed-form .views-exposed-widget{
+        padding: 0.5em 0 0 0 !important;
+    }
+    
+    .page-educacion-continua select#edit-field-categor-a-tid.form-select{
+        width: 100% !important;
+    }
+    
+    .page-educacion-continua .l-content .views-row{
+        width: 100% !important;
+        
+    }
+    
+/*---------------------------------------------- Bachillerato y Preparatorias ---------------------------------------------------------------------*/ 
+    
+    .content{
+		text-align: center;
+	}
+	
+	.content .fila-info{
+        text-align: center !important;
+    }
+	
+	.columna-introduccion{
+		width: 90%;
+		display: inline-block;
+		text-align: justify;
+	}
+	
+	.columna-datos-link{
+		width: 90%;
+		display: inline-block;
+	}
+	
+	.content .fila-mapa{
+		width: 90% !important;
+		float: none !important;
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+    
+    .fila-izq, .fila-der{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-bottom: 20px;
+        margin-left: 0 !important;
+    }
+    
+    .fila-izq ul, .fila-der ul{
+        padding-right: 20px;
+    }
+    
+/*---------------------------------------------- Semiescolarizado y a Distancia ---------------------------------------------------------*/       
+    .top-izq{
+        width: 100% !important;
+        float: none !important;
+    }
+    
+    .top-der{
+        float: none !important;
+        width: 100% !important;
+        padding: 0 !important;
+        padding-top: 25px !important;
+    }
+    
+    .bottom-izq{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+    }
+    
+    .bottom-izq p{
+        width: 90%;
+        display: inline-block;
+    }
+    
+    .bottom-centro{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 20px;
+    }
+    
+    .bottom-centro ul{
+        text-align: left !important;
+        padding-left: 30px !important;
+    }
+    
+    .bottom-der{
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-top: 20px;
+    }
+    
+    .bottom-der ul{
+        text-align: left !important;
+        padding-left: 30px !important;
+    }
+    
+/*---------------------------------------------- Preparatorias ---------------------------------------------------------*/ 
+    
+    .overlay-datos{
+        width: auto !important;
+        left: 0 !important;
+        height: auto !important;
+        position: initial !important;
+        font-size: 13px !important;
+        background: rgba(0,0,0,0.5) !important;
+    }
+    
+    .content .fila-mapa #columnas .contenido-columnas{
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px 0;
+    }
+    
+    .content .fila-mapa #columnas .contenido-columnas ul{
+        padding-left: 10px;
+    }
+    
+    .content .fila-mapa #columnas #cmapa{
+        width: 100% !important;
+        height: 350px !important;
+    }
+    
+/*---------------------------------------------- Ciencia a tiempo ---------------------------------------------------------*/
+    .contenedor .col-top{
+        text-align: center;    
+    }
+    
+    .contenedor .col-top img{
+        width: 250px !important;
+        padding: 0 0 25px 0 !important;
+        float: none !important;
+        display: inline-block;
+    }
+    
+    .contenedor .playlist-ciencia{
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .contenedor .col-central{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .noticias .views-row{
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+}

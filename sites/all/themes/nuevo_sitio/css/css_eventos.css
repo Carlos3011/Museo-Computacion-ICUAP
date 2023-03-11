@@ -1,0 +1,427 @@
+.l-content-c {
+	/* background: url('img/fondo_abajo.png')  !important; */
+	/* background-position: 0px -180px !important;
+	background-size: cover;
+	clear: both; */
+	max-width: 1360px;
+	margin: 0 auto;
+}
+
+.l-content-c-events  h2.pane-title {
+font-weight: normal;
+}
+
+.l-content-c-events .vista_eventos {
+	padding-top: 2px;
+}
+
+.l-content-c-events .vista_eventos .views-row .views-field-title {
+	margin: 0 45px;
+}
+
+.l-content-c-events .views-field-field-comentario-eventos {
+	max-width: 185px;
+    display: block;
+    margin: 0 auto;
+    font-family: sourcesans_light;
+    font-size: 17px;
+}
+
+.vista_eventos .views-field-field-lugar .field-content{
+	font-family: sourcesans_bold;
+	font-size: 13px;
+}
+
+.node-type-eventos .pane-page-content .field--name-field-poster img {
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+..node-type-eventos .view-vista-eventos-relacionados a {
+	color: #003b5c !important;
+}
+
+.node-type-eventos a {
+	color: #00b5e2;
+	text-decoration: none;
+}
+
+.calendario_leermas{
+	text-align: center;
+}
+
+@media only screen and (min-width: 1150px) {
+
+.page-educacion-continua .eventos-view {
+	max-width: 830px !important;
+}
+
+.eventos-view {
+	max-width: 1100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.l-content-c-events .pane-3 {
+	margin-top: 45px;
+	float: left;
+	height: 260px;
+	text-align: center;	
+	min-width: 275px;
+}
+
+.l-content-c-events {
+/*	height: 800px;*/
+	width: 1100px;
+}
+}
+
+@media only screen and (max-width: 1149px) {
+.eventos-view {
+	max-width: 850px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.l-content-c-events .pane-3 {
+	margin-top: 45px;
+	float: left;
+	height: 260px;
+	text-align: center;	
+	min-width: 275px;
+}
+/*.calendario_leermas{
+	margin-top: 30px;
+	float: left;
+	height: 260px;
+	width: 275px;
+	text-align: center;	
+}*/
+
+.l-content-c-events {
+/*	height: 1070px;*/
+	width: 845px;
+}
+}
+
+@media only screen and (max-width: 866px) {
+.eventos-view {
+	max-width: 570px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+.calendario_leermas{
+	margin-top: 30px;
+	float: left;
+	height: 260px;
+	width: 275px;
+	text-align: center;	
+}*/
+
+.l-content-c-events .pane-3 {
+	margin-top: 45px;
+	float: left;
+	height: 260px;
+	text-align: center;	
+	min-width: 275px;
+}
+.view-vista-eventos .views-row-4, .view-vista-eventos .views-row-5, .view-vista-eventos .views-row-6, .view-vista-eventos .views-row-7 {
+	display: none;
+}
+
+.l-content-c-events {
+	height: 720px;
+	width: 570px;
+	margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 590px) {
+.eventos-view {
+	max-width: 275px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.vista_eventos .views-field-title {
+	display: block;
+}
+
+.vista_eventos .views-row-3, .vista_eventos .views-row-4, .vista_eventos .views-row-5, .vista_eventos .views-row-6, .vista_eventos .views-row-7 {
+	display: none;
+}
+
+.vista_eventos .views-field-field-fecha, .vista_eventos .views-field-field-lugar {
+	display: none;
+}
+
+.l-content-c-events .views-row {
+	height: auto !important;
+}
+
+.calendario_leermas{
+	display: block;
+	height: 260px;
+	width: 100%;
+	text-align: center;	
+
+}
+
+.l-content-c-events .views-row {
+
+	margin-bottom: 10px !important;
+}
+.l-content-c-events {
+	height: 950px;
+	width: 100%;
+	text-align: center;
+}
+.l-content-c-events .l-region--content-events {
+	display: inline-block;
+}
+
+}
+
+.eventos-view img {
+	overflow: hidden;
+	 -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.eventos-view * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+
+.eventos-view .eventos_img {
+	max-width: 180px;
+    max-height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+/* 	background: #00b5e2; */
+	margin-bottom: 20px;
+
+}
+
+.eventos-view .field-content img {
+/* 	
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease; */
+          
+	/* 
+	  overflow: hidden;
+	 opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;  
+	 */
+	/* EFECTO DE CIRCULO
+ -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  */
+		  
+/*	ZOOM 
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease; */
+}
+
+.eventos-view .field-content img:hover {
+	
+	    height: 300px;
+		width: 300px;
+		margin:-50px -50px;
+/* 		opacity: .4;  */
+		
+	/* 	border-radius: 50%;
+  -webkit-transform: rotate(25deg);
+     -moz-transform: rotate(25deg);
+       -o-transform: rotate(25deg);
+      -ms-transform: rotate(25deg);
+          transform: rotate(25deg); */
+	/*EFECTO DE CIRCULO
+border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+		  */
+
+}
+
+.l-content-c-events {
+	color: white;
+	font-family: sourcesans;
+	margin:0 auto;
+	min-height:680px;
+}
+
+.l-content-c-events .view-view-eventos{
+display:block;
+margin-left: auto;
+margin-right: auto;
+position:relative;
+text-align:center;
+}
+
+.l-content-c-events .vista_eventos h2 {
+	font-size: 40px;
+	letter-spacing: 1.25px;
+	text-align:center;
+	
+}
+
+.l-content-c-events .views-row {
+	height: 380px;
+	width: 275px; 
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+/*.l-content-c-events .views-field-views-conditional {
+	position: absolute;
+    top: 21px;
+    right: 48px;
+    background: white;
+	color: red;
+    color: #00395d;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-left: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+	font-size: 15px;
+    font-weight: bold;
+}
+
+@keyframes up-right {
+    0% {<!--from w w w .  j  a va 2  s. c  o m-->
+        transform: scale(1);
+        opacity: .25
+    }
+    50% {
+        transform: scale (1, 5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: .25;
+    }
+}
+
+.l-content-c-events .notificacion {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    opacity: .25;
+    background-color: red;
+    position: absolute;
+	top: 9px;
+    left: 10px;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}*/
+
+.l-content-c-events .views-field-views-conditional {
+	position: absolute;
+    top: 135px;
+    left: 88px;
+    font-family: calibri;
+    color: red;
+    font-size: 35px;
+	animation: blinker 1.5s linear infinite;
+	letter-spacing: 5px;
+}
+
+.l-content-c-events .p-notificacion {
+	position: absolute;
+    border-radius: 50%;
+    background: red;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: -30px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.vista_eventos {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ .calendario_leermas a {
+	
+	font-family: sourcesans;
+	font-size: 20px !important;
+	font-weight: bold;
+
+	
+}
+.calendario_leermas img{
+	display: block;
+	height: 60px;
+	width: auto; 
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	
+.l-content-c-events a {
+	color: #00B5DF;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.l-content-c-events .lugar {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.l-content-c-events .link {
+	color: #00B5DF;
+	font-weight: bold;
+	
+}
+
+.l-content-c-events .fecha, .l-content-c-events .title {
+	font-size: 18px;
+}
+
+.l-content-c-events .titulo_convocatoria a {
+	color: white;
+}

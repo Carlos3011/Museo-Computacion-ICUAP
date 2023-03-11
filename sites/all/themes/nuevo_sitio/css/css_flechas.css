@@ -1,0 +1,51 @@
+.flechas {		
+	position: relative; 
+	margin: 0 8% 0 8%;
+	z-index: 300; 
+	}
+
+.flechas .vscc-previous-processed a{
+	float: left;
+}
+
+.flechas .vscc-next-processed a{
+	float: right;
+}
+
+@media only screen and (min-width:100px){
+	.flechas {		
+		top: -6em;
+	}
+}
+
+@media only screen and (min-width:480px){
+	.flechas {		
+		top: -8em;
+	}
+}
+
+@media only screen and (min-width:640px){
+	.flechas {		
+		top: -9em;
+	}
+}
+
+
+@media only screen and (min-width:768px){
+	.flechas {		
+		top: -11em;
+	}
+}
+
+@media only screen and (min-width:1024px){
+	.flechas {		
+		top: -15em;
+	}
+}
+
+@media only screen and (min-width:1366px){
+	.flechas {		
+		top: -18em;
+	}
+}
+ 

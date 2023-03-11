@@ -1,0 +1,66 @@
+.page-apps-buap .l-main {
+	text-align: center;
+}
+
+.page-apps-buap .l-content {
+	width: 1360px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.page-apps-buap .view-vista-apps-buap .views-row {
+	display: inline-block;
+	float: left;
+	padding: 25px;
+	height: 190px;
+}
+
+.page-apps-buap .view-vista-apps-buap {
+	width: 625px;
+	margin: 0 auto;
+}
+
+
+.page-apps-buap .view-vista-apps-buap .views-row a {
+	color: #00b5e2;
+	font-family: sourcesans_bold;
+	text-decoration: none;
+}
+
+
+.page-apps-buap .view-vista-apps-buap .views-row a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1360px) {
+	.page-apps-buap .l-content {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.page-apps-buap .view-vista-apps-buap {
+		width: 475px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	.page-apps-buap .view-vista-apps-buap {
+		width: 325px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.page-apps-buap .view-vista-apps-buap {
+		width: 160px;
+		margin: 0 auto;
+	}
+}
+
+
+footer .apps a {
+	color: #00b5e2;
+    text-decoration: none;
+}

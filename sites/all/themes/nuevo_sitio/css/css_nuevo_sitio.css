@@ -1,0 +1,81 @@
+
+@font-face {
+	font-family: sourcesans;
+	src: url(fonts/woff/SOURCESANSPRO-REGULAR.WOFF) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: sourcesans_bold;
+	src: url(fonts/woff/SOURCESANSPRO-SEMIBOLD.WOFF) format('woff');
+	font-weight: bolder;
+}
+
+@font-face {
+	font-family: sourcesans_light;
+	src: url(fonts/woff/SOURCESANSPRO-LIGHT.WOFF) format('woff');
+}
+
+@font-face {
+	font-family: sourcesans_extralight;
+	src: url(fonts/woff/SOURCESANSPRO-EXTRALIGHT.WOFF) format('woff');
+}
+
+@font-face {
+	font-family: sourcesans_bolder;
+	src: url(fonts/woff/SOURCESANSPRO-BOLD.WOFF) format('woff');
+}
+
+@font-face {
+	font-family: gothambook;
+	src: url(fonts/woff/GothamBook.woff);
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	margin: 0 0 170px;
+	padding: 0;
+}
+
+.not-front {
+	font-family: sourcesans;
+	color: #003b5c;
+	margin: 0 0 230px;
+}
+
+.not-front .l-content {
+	margin-bottom: 75px;
+	padding-top: 5%;
+	/* text-align: center;
+    margin-top: 19px;
+    height: 675px;
+    width: 100%; */
+}
+
+.l-page {
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 1360px) {
+	body.front {
+	background: white !important;
+}
+
+}
+
+@media only screen and (min-width:641px) and (max-width: 1024px){
+	.not-front {
+		margin: 0 0 380px;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	.not-front {
+		margin: 0 0 480px;
+	}
+}

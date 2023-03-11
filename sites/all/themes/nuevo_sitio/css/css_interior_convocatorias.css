@@ -1,0 +1,124 @@
+.page-convocatorias .l-content {
+	width: 1100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.page-convocatorias .l-content .views-row .views-field-title {
+	width: 180px;
+	margin: 0 auto;
+}
+
+
+.pane-vista-convocatorias-interior .pane-title {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.page-convocatorias .l-content .views-row .views-field-title a{
+	color: #003b5c;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.page-convocatorias .l-content .views-row .views-field-title a:hover{
+	color: #00b5e2;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.page-convocatorias .pager {
+	color:#00b5e2;
+}
+
+.page-convocatorias .pager a{
+	color:#003b5c;
+	text-decoration: none;
+}
+
+.page-convocatorias .l-content {
+	width: 1100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-convocatorias .l-content h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.page-convocatorias .l-content .views-row {
+    height: 300px;
+    width: 275px;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+	/*display: inline-block;*/
+	}
+	
+	.page-convocatorias .l-content .views-field-title span {
+		font-size: 18px;
+		
+	}
+	
+	.page-convocatorias .l-content .views-field-view-node a {
+    color:  #003b5c;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+	}
+	
+	.page-convocatorias .pager {
+	color:#00b5e2;
+	
+}
+
+.page-convocatorias .pager a{
+	color:#003b5c;
+	text-decoration: none;
+}
+	
+@media only screen and (max-width: 1149px) {
+	.page-convocatorias .l-content {
+		width: 850px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 866px) {
+	.page-convocatorias .l-content {
+		width: 570px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.page-convocatorias .l-content {
+		width: 275px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.node-type-eventos .pane-1 a {
+	text-decoration: none;
+	color: #003b5c;
+	float: right;
+	
+}
+
+.node-type-eventos .pane-1 a:hover {
+	text-decoration: none;
+	color: #00C6F4;
+	
+}
+

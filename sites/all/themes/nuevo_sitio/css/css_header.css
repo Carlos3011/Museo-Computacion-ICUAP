@@ -1,0 +1,323 @@
+.l-header{	
+	background-color:#00395E;
+    height: 78px;
+	    position: fixed;
+    /* margin: 0 auto; */
+    width: 100%;
+    z-index: 99;
+
+	}
+	
+.l-header-region{
+	height: 77px !important;
+	background-color: #00395E;
+}
+.l-region.l-region--highlighted{
+	padding-top: 77px;	
+}
+@media only screen and (max-width: 1360px) {
+.l-main{
+	background-color: white;
+}
+}
+/*
+.l-region.l-region--header{
+	max-width: 1360px;
+	margin: 0 auto;
+	width: 100%;
+	height: 72px;
+}*/
+.logo_buap{
+	max-width: 1300px;
+	margin:0 auto;
+	z-index: -1;
+    background-color: #123C5D;
+	}  
+
+.panel-pane.pane-block.pane-tb-megamenu-menu-menu-inteligente-oficial{
+	max-width: 1020px;
+	width: 100%;
+	float: left;
+/* 	padding-top: 1.51%; */
+	background-color:  #003b5c !important;
+}
+
+.tb-megamenu .mega-nav > li> a, .tb-megamenu .dropdown-menu .mega-nav > li > a{
+	color: #A2ADB3;
+	text-decoration: none;	
+} 
+.tb-megamenu .mega-nav > li> a, .tb-megamenu .dropdown-menu .mega-nav > li > a:hover{
+	color: #45B1E1;
+	text-decoration: none;	
+} 
+
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover{
+	    
+	background-color: #003B5C !important;
+	text-decoration: none;	
+	border-color: #003B5C !important;
+	font-family: sourcesans;
+	font-size: 14px;
+} 
+
+
+.tb-megamenu{
+	background-color: #003B5C !important;
+} 
+
+/* .l-branding{
+	    padding-top: 4%;
+} */
+.l-region--smart-menu .tb-megamenu{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu.nav-child{
+	border-bottom: 3px solid #00B5E3 !important;
+	margin-left: -170px !important;
+    margin-top: 10px;
+
+}
+
+.tb-megamenu .nav > li > a:focus, .tb-megamenu .nav > li > a:hover{
+	background-color: #003B5C !important;
+} 
+
+.l-region--navigation .tb-megamenu .dropdown-menu{
+	box-shadow: none !important;
+    font-size: 15px;
+}
+
+.row-fluid {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto; 
+	
+} 
+
+.tb-megamenu-item .tb-megamenu-submenu {
+/* 	max-width: 1360px !important;
+  width: 100% !important; */
+  margin: 0 auto;
+}
+.l-region--smart-menu .tb-megamenu .mega-dropdown-menu {
+	
+	margin-left: -13% !important;
+}
+.mega-dropdown-inner{
+	border-right: 0px solid #222 !important;
+    border-top: 0; 
+    color: #fff !important;
+    font-weight: normal;
+    padding: 0px 0px;
+    text-shadow: none;
+    text-decoration: none;
+    border-color: #003B5C !important;
+    font-family: sourcesans !important;
+    font-size: 14px;
+}
+
+
+
+.not-front .tb-megamenu .nav > li > a{
+	border-right: 0px solid #222 !important;
+    border-top: 0; 
+    color: #fff !important;
+    font-weight: normal;
+    padding: 15px 20px;
+    text-shadow: none;
+    text-decoration: none;
+    border-color: #003B5C !important;
+    font-family: sourcesans;
+    font-size: 14px;
+}
+
+.not-front .tb-megamenu .nav > li > a:hover{
+    color: #45B1E1 !important;
+
+}
+
+
+.tb-megamenu-column-inner.mega-inner.clearfix ul.tb-megamenu-subnav.mega-nav.level-1.items-2{
+/* 	text-align: right;  */
+}
+
+.tb-megamenu .span12.mega-col-nav .mega-inner{
+	padding: 0px !important;
+}
+
+.tb-megamenu li[data-id="1202"] a{
+	padding-right: 5px !important;
+}
+
+.l-page{
+	/*background: url('http://148.228.54.14/test-newsite05/sites/all/themes/nuevo_sitio/img/back_9.png') repeat-y center center fixed; */
+    background-color: #00395E;
+}
+
+.not-front .l-page{
+	background: none !important;
+    background-color: white !important;
+}
+
+
+.l-region--smart-menu{
+	width: 1020px;
+    margin: 0 auto;
+    height: 50px;
+    margin-top: -58px;
+}
+
+.l-redes{
+	max-width: 1360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.redes_responsive{
+	 float: right;
+	 margin-top: -45px;
+	 margin-right: 30px;
+}
+
+.redes_responsive{
+
+}
+
+.tb-megamenu a.mega-group-title {
+    color: #505050;
+    margin-top: 30px;
+    font-size: 13px;
+    border-bottom: 2px solid #00B6E4;
+}
+
+.tb-megamenu li.tb-megamenu-item.level-2.mega.mega-group {
+	margin-bottom: 10px;
+}
+
+.tb-megamenu .tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu.nav-child {
+	left: 10px;
+}
+
+.tb-megamenu .menu-right{
+	text-align: right;
+}
+@media (max-width:1150px) {
+div#tb-megamenu-menu-menu-inteligente-oficial{
+	display: none;
+	
+}
+.l-redes{
+	display: none;
+}
+.l-region--smart-menu .tb-megamenu{
+	display: none;
+}
+#mobile-header{
+	position: absolute;
+	display: block !important;
+	text-align: right;
+   /*  margin-top: -65px; */
+    /* margin-right: 17px; */
+	/*margin-left: 89.5%;*/
+	right: 25px;
+	margin-top: -10px;
+}
+.l-branding{
+	background-color: white;
+}
+
+}
+@media (max-width:750px){
+	#mobile-header{
+	margin-left: 88.5%;
+	margin-top: -10px;
+	
+}
+} 
+
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle{
+	background-color: #003b5c !important;
+}
+
+
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover{
+	background-color: white;
+}
+
+/* .not-front .l-header{
+	margin-top: -2%;
+}
+ */
+ 
+.l-header .logo_buap img{
+	 padding: 7px;
+	 }
+	 
+.l-header .logo_buap {
+	  height: 77px;
+	  background-color: #00395E;
+	 }
+	 
+a.dropdown-toggle{
+	padding-right: 5px !important;
+}
+
+
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle .caret, .tb-megamenu .nav li.dropdown.active > .dropdown-toggle .caret, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle .caret{
+	display: none;
+}
+
+.tb-megamenu .nav li.dropdown > .dropdown-toggle .caret{
+	display: none;
+}
+
+.tb-megamenu .nav > li > a{
+	font-weight: lighter !important;
+    border-right: none !important;
+}
+
+li.tb-megamenu-item.level-2.mega.otros.mega-group {
+	    position: absolute;
+	    top: 500px;
+	    left: 726px;
+}
+
+li.tb-megamenu-item.level-2.mega.institutos.mega-group {
+	    position: absolute;
+	    top: 500px;
+	    left: 355px;
+		text-align: right;
+}
+
+li.tb-megamenu-item.level-2.mega.institutos.mega-group a.mega-group-title {
+    text-align: right;
+    color: #505050;
+    font-size: 13px;
+    border-bottom: 2px solid #00B6E4;
+}
+
+.tb-megamenu .nav > .active > a {
+	background-color: #003B5C;
+	text-decoration: none;
+	border: 0;
+	font-family: sourcesans;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 1550px) {
+	.tb-megamenu .menu-oferta {
+		height: 640px;
+		overflow-y: scroll;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.tb-megamenu .menu-oferta {
+		height: 450px;
+		overflow-y: scroll;
+	}
+}

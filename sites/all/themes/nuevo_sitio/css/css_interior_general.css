@@ -1,0 +1,33 @@
+.not-front .l-content {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.not-front .l-content a {
+	color: #003b5c;
+	text-decoration: none;
+}
+
+.not-front .l-content a:hover {
+	color: #003b5c;
+	text-decoration: underline;
+}
+
+.not-front .l-content .panel-pane.pane-page-title {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+	.not-front .l-content {
+		width: 100%;
+	}
+	
+	.not-front .l-main {
+		width: 100%;
+	}
+	
+	.not-front .l-content .panel-pane.pane-page-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

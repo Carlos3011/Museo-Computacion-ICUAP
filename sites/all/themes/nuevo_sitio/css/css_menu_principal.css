@@ -1,0 +1,326 @@
+@media only screen and (max-width: 800px) {
+.l-branding > .l-header > .logo_buap {
+		z-index: -1 !important;
+	}
+	
+	.l-menu {
+		z-index: 2000;
+	}
+}
+
+li.tb-megamenu-item.level-1 {
+    padding-bottom: 10px;
+}
+
+.l-menu * {
+	font-family: sourcesans;
+}
+
+.l-menu .level-1 {
+	font-family: sourcesans;
+	font-size: 14px;
+}
+
+.l-menu .level-1 a {
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 1360px) {
+	
+	.l-redes {
+		width: 1360px;
+/* 		height: 80px; */
+		margin-top: -80px;
+		margin: 0 auto;
+		position: relative;
+	}
+}
+
+/* .redes_responsive{
+	max-width: 1360px;
+    float: right;
+
+    margin-top: -40px;
+} */
+.redes_responsive img{
+    height: 30px;
+    width: auto;
+    padding-right:3px;
+}
+
+/* .l-branding {
+	background-color: #003b5c;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	z-index:500;
+} */
+ /* CÓDIGO DE ALVARO, LO COMENTO PARA INSERTAR CÓDIGO PRUEBA*/
+ /*MI CODIGO ANGEL*/
+ 
+
+
+/* .l-branding{
+ 	background-color: #003b5c;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	z-index:500;
+ } */
+ 
+/* .l-header-region .ingles {
+	float: right;
+    padding-right: 24%;
+    margin-top: -34px;
+
+} */
+
+.l-header-region .ingles img {
+	width: 20px;
+	height: auto;
+
+}
+
+.l-branding .l-menu {
+	width: 620px;
+	margin: 0 auto;
+	height: 50px;
+/* 	margin-top: -58px; */
+}
+
+.l-header-region .pane-block-2 {
+	float: left;
+	height: 20px;
+	width: 20px;
+}
+
+.menu_principal {
+	background-color: #003b5c !important;
+	font-family: sourcesans_bold;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+}
+
+.menu_principal a {
+	color: white;
+	text-decoration: none;
+	/*font-weight: bold;*/
+}
+
+.menu_principal a:hover {
+	color: #00b5e2;
+	text-decoration: none;
+	
+}
+
+.menu_principal .menu {
+	display: block;
+	width: 575px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px !important;
+	margin-bottom: 0px;
+	padding: 0px 0px !important;
+	float: left;
+}
+
+.menu_principal .menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_principal .menu li {
+	display: inline;
+	margin-left: 10px;
+}
+
+.menu_principal .menu li .prensa {
+	font-family: sourcesans;
+	font-weight: normal;
+}
+
+.l-branding .logo_buap {
+	position: relative;
+	/*left: 200px;*/
+	padding-top: 5px;
+	max-width: 1360px;
+	margin: 0 auto;
+	padding-left: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+	.menu_principal {
+		display: none;
+	}
+	
+	.ingles {
+		display: none;
+	}
+/* 	
+	.l-region--highlighted {
+		padding-top: 26px;
+	} */
+}
+
+@media only screen and (max-width: 1000px) {
+	.redes_responsive img {
+		padding-right: 5px;
+	}
+	
+	.l-menu ul.menu li {
+		margin-left: 5px;
+	}
+	
+	.menu_principal .menu {
+		width: 530px;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.redes_responsive {
+		display: none;
+	}
+}
+
+/*MEGA MENU*/
+.l-menu .tb-megamenu .dropdown-toggle {
+    font-family: sourcesans;
+    text-decoration: none;
+	font-size: 14px;
+	border: 0 !important;
+}
+
+.l-menu .tb-megamenu .nav li.dropdown.open > .dropdown-toggle, .l-menu .tb-megamenu .nav > li > a:focus, .tb-megamenu .nav > li > a:hover {
+	color: white;
+}
+
+li.tb-megamenu-item.level-2.mega.facultades_escuelas.mega-group a.mega-group-title{
+	color: #505050;
+    font-size: 15px;
+}
+
+li.tb-megamenu-item.level-3.mega.administrativa.mega-group a.mega-group-title{
+	color: #505050;
+	text-align: right;
+	border-bottom: 2px solid #00B6E4;	
+	font-size: 13px;
+}
+
+li.tb-megamenu-item.level-3.mega.administrativa.mega-group ul.tb-megamenu-subnav.mega-nav.level-3.items-4{
+	text-align: right; 
+	margin-bottom: 23.5%;
+}
+
+li.tb-megamenu-item.level-3.mega.sociales.mega-group a.mega-group-title{
+	color: #505050;
+	text-align: right;
+	border-bottom: 2px solid #00B6E4 ;	
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+li.tb-megamenu-item.level-3.mega.sociales.mega-group ul.tb-megamenu-subnav.mega-nav.level-3.items-7{
+	text-align: right; 
+}
+
+li.tb-megamenu-item.level-3.mega.ingenieria.mega-group a.mega-group-title{
+	padding: 0px;
+    font-size: 13px;
+    border-bottom: 2px solid #00B6E4 ;
+	color: #505050;
+}
+
+li.tb-megamenu-item.level-3.mega.ingenieria.mega-group .tb-megamenu .mega-nav > li > a, .tb-megamenu .dropdown-menu .mega-nav > li > a{
+	margin-left: 0px !important;
+}
+
+li.tb-megamenu-item.level-3.mega.salud.mega-group a.mega-group-title{
+	color: #505050;
+	text-align: left;
+	border-bottom: 2px solid #00B6E4;	
+	font-size: 13px;
+}
+
+li.tb-megamenu-item.level-2.mega.preparatorias.mega-group a.mega-group-title{
+	text-align: right;
+    color: #505050;
+    margin-top: 30px;
+    font-size: 13px;
+    border-bottom: 2px solid #00B6E4;
+}
+
+li.tb-megamenu-item.level-2.mega.preparatorias.mega-group ul.tb-megamenu-subnav.mega-nav.level-2.items-10{
+	text-align: right;
+}
+
+li.tb-megamenu-item.level-2.mega.otros.mega-group  a.mega-group-title{
+	text-align: left;
+    color: #505050;
+    font-size: 13px;
+    border-bottom: 2px solid #00B6E4;
+}
+
+
+li.tb-megamenu-item.level-2.mega.otros.mega-group ul.tb-megamenu-subnav.mega-nav.level-2.items-5{
+	text-align: left;
+	font-weight: lighter;
+}
+
+/*MEGA MENU IMAGENES*/
+
+.tb-megamenu-block.tb-block.tb-megamenu-block .logo_buap_footer img{
+	width: 120px;
+}
+
+.redes_menu a.twitter{
+	display: inline-block !important;
+	padding: 0 10px !important;
+	border-bottom: 2px solid rgba(0, 59, 92, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+  
+  -webkit-transition: border 800ms ease;
+  -moz-transition: border 800ms ease;
+  -ms-transition: border 800ms ease;
+  -o-transition: border 800ms ease;
+  transition: border 800ms ease; 
+}
+
+.redes_menu a.twitter:hover{
+	border-bottom: 2px solid rgba(0, 59, 92, 1);
+	}
+
+
+ .redes_menu{
+	float: right;
+}
+
+.redes_menu img{
+	width: 30px;
+}
+
+a.mega-group-title{
+	pointer-events: none;
+}
+/* 
+.tb-megamenu-row.row-fluid{
+	    background-color: #003B5C;
+} */
+
+.vida-universitaria {
+	text-align: right; 
+}
+
+.preparatorias_2{
+	text-align: right;
+}
+
+
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover{
+	background-image: -webkit-linear-gradient(top,#fff,#fff) !important;  
+}

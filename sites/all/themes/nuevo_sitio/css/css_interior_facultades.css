@@ -1,0 +1,537 @@
+article.node.node--facultades.node--promoted.node--full.node--facultades--full{
+	float: left;
+	width: 100%;
+}
+
+
+.node-type-facultades  .pane-page-content{
+	float: left;
+}
+
+.node-type-facultades .l-content {
+	max-width: 930px;
+	width: 100%;
+	/* height: auto; */
+	margin: 0 auto;
+} 
+
+
+.node-type-facultades .field.field--name-field-visi-n.field--type-text-with-summary.field--label-inline.clearfix{
+	max-width: 270px;
+    float: left;
+	min-height: 220px; 
+	margin-bottom: 80px;
+	margin-right: 30px;
+}
+
+.node-type-facultades .field.field--name-field-visi-n.field--type-text-with-summary.field--label-inline.clearfix ul{
+	text-align: left;
+}
+
+.node-type-facultades .field.field--name-field-foto-1.field--type-image.field--label-hidden{
+	width: 310px;
+    height: 220px;
+    float: left;
+    margin-right: 30px;
+}
+
+.node-type-facultades .field.field--name-field-foto-2.field--type-image.field--label-hidden{
+	width: 310px;
+    height: 220px;
+    float: left;
+    margin-right: 30px;	
+}
+
+.node-type-facultades .field--type-text-with-summary .field__items{
+	width: 100%;
+	height: auto;
+	text-align: justify; 
+}
+
+.node-type-facultades .field.field--name-field-foto-2.field--type-image.field--label-hidden{
+	width: 310px;
+    height: 220px;
+    float: left;
+}
+
+.node-type-facultades .field.field--name-body.field--type-text-with-summary.field--label-inline.clearfix{
+	margin-bottom: 30px;
+	max-width: 585px;
+	width: 100%;
+    float: left;
+	min-height: 320px;
+}
+
+.node-type-facultades .field.field--name-field-informaci-n-general.field--type-text-long.field--label-hidden{
+	width: 310px;
+    height: 255px;
+    float: left;
+	margin-right: 25px;
+	
+    margin-bottom: 20px;
+
+	}
+
+.node-type-facultades .field--name-field-informaci-n-general .field__items{
+	text-align: right;
+	font-weight: bold;
+	
+
+}
+	
+	
+.node-type-facultades .field--name-field-sitio-web .field__item.even{
+	width: 310px;
+/*     position: absolute;
+    height: 270px;
+    padding-top: 160px;*/
+	text-align: right;  
+	float: left;
+} 
+
+/* .node-type-facultades .google-map-field{
+	width: 585px;
+	height: 430px;
+	float: left;
+} */
+
+
+
+/* .node-type-facultades .google-map-field {
+    background-color: #BDBDBD;
+    padding: 5px 5px;
+} */
+.node-type-facultades footer.l-footer{
+	float: left;
+    bottom: -200px;
+}
+
+.node-type-facultades .field.field--name-field-mapa-facultad.field--type-google-map-field.field--label-hidden{
+	max-width: 585px;
+	max-height: 430px;
+    height: auto;
+    float: left;
+    width: 100%;
+	margin-bottom: 30px;
+}
+.node-type-facultades .google_map_field_display{
+	width: 100%;
+	height: 430px;
+
+}
+
+.node-type-facultades .google-map-field{
+	background-color: #BDBDBD;
+    padding: 5px 5px;
+}
+
+.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix{
+	max-width: 310px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: -9.5%;
+}
+
+.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix .field__label{
+	display: none;
+}
+
+.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix .field__items{
+	background-color:  #00C7F5;
+    margin-top: 12px;
+		 box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix .field__items:hover{
+	background-color:  #003B5C;
+    margin-top: 12px;
+		 box-shadow:
+                0px 0px #53a7ea,
+                0px 0px #53a7ea,
+                0px 0px #53a7ea;
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+}
+
+
+.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix .field__item.even{
+	text-align: center;
+}
+
+.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix .field__item.even a{
+	text-decoration: none;
+	color: white;
+}
+	
+.node-type-facultades .node__content{
+	float: left;
+	width: 100%;
+}
+
+.field.field--name-field-se-oferta-en-.field--type-text-with-summary.field--label-above{
+	max-width: 270px;
+    float: left;
+    min-height: 220px;
+    margin-bottom: 80px;
+}
+
+.field.field--name-field-se-oferta-en-.field--type-text-with-summary.field--label-above ul{
+	text-align: left;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px){
+
+	/*#node-120 .not-front{
+		margin: 0 0 100px !important;
+	}*/
+	
+	.not-front .l-content{
+		padding-top: 78px !important;
+	}
+	
+	.node-type-facultades .field.field--name-field-foto-1.field--type-image.field--label-hidden{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	
+	.node-type-facultades .field.field--name-body.field--type-text-with-summary.field--label-inline.clearfix{
+		max-width: inherit;
+		min-height: inherit;
+	}
+	
+	.node-type-facultades .field.field--name-field-visi-n.field--type-text-with-summary.field--label-inline.clearfix{
+		min-height: inherit;
+		margin-bottom: 10px;
+	}
+	
+	.field.field--name-field-se-oferta-en-.field--type-text-with-summary.field--label-above{
+		min-height: inherit;
+		margin-bottom: 50px;
+	}
+	
+	.node-type-facultades .field.field--name-field-mapa-facultad.field--type-google-map-field.field--label-hidden{
+		max-width: 540px;
+	}
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1024px) {
+	
+	/*
+	#node-120 .not-front{
+		margin: 0 0 140px !important;
+	}*/
+	
+	.not-front .l-content{
+		padding-top: 78px !important;
+	}
+	
+	.node-type-facultades .field.field--name-field-foto-1.field--type-image.field--label-hidden{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	
+	.node-type-facultades .field.field--name-body.field--type-text-with-summary.field--label-inline.clearfix{
+		max-width: inherit;
+		min-height: inherit;
+	}
+	
+	.node-type-facultades .field.field--name-field-foto-2.field--type-image.field--label-hidden{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	.node-type-facultades .field.field--name-field-visi-n.field--type-text-with-summary.field--label-inline.clearfix{
+		margin-bottom: 30px;
+		min-height: 100px;
+		width: 50%;
+		max-width: inherit;
+		margin-right: 0;
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-field-visi-n.field--type-text-with-summary.field--label-inline.clearfix .field__label{
+		float: none;
+	}
+	
+	.field.field--name-field-se-oferta-en-.field--type-text-with-summary.field--label-above{
+		margin-bottom: 30px;
+		min-height: 100px;
+		width: 50%;
+		max-width: inherit;
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-field-informaci-n-general.field--type-text-long.field--label-hidden{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-field-informaci-n-general.field--type-text-long.field--label-hidden .field__items{
+		display: inline-block;
+	}
+	
+	.node-type-facultades .field--name-field-informaci-n-general .field__items{
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-field-mapa-facultad.field--type-google-map-field.field--label-hidden{
+		max-width: none;
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-field-mapa-facultad.field--type-google-map-field.field--label-hidden .field__items{
+		max-width: 585px;
+		display: inline-block;
+	}
+	
+	.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix{
+		max-width: inherit;
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix .field__items{
+		display: inline-block;
+		max-width: 310px;
+		float: none;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+	
+	/*
+	{
+		margin: 0 0 170px !important;
+	}*/
+	
+	.node-type-facultades .l-main{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.not-front .l-content .panel-pane.pane-page-content{
+		padding: 0 !important;
+		width: 100%;
+	}
+	
+	.node-type-facultades .node__content{
+		text-align: center;
+	}
+	
+	.node-type-facultades .field.field--name-body.field--type-text-with-summary.field--label-inline.clearfix{
+		width: 95%;
+		display: inline-block;
+		float: none;
+		min-height: inherit;
+	}
+
+	.node-type-facultades .panel-pane.pane-page-title{
+		text-align: center;
+		margin-top: 45px;
+	}
+	
+	.node-type-facultades .field.field--name-field-visi-n.field--type-text-with-summary.field--label-inline.clearfix{
+		min-height: inherit;
+		width: 100%;
+		float: none;
+		display: inline-block;
+		margin: 20px 0 10px 0;
+	}
+	
+	.field.field--name-field-se-oferta-en-.field--type-text-with-summary.field--label-above{
+		max-width: inherit !important;
+		min-height: inherit !important;
+		width: 100%;
+		float: none !important;
+		display: inline-block;
+		margin: 20px 0 10px 0;
+	}
+	
+	.field.field--name-field-se-oferta-en-.field--type-text-with-summary.field--label-above .field__items{
+		max-width: 300px;
+		display: inline-block;
+	}
+	
+	.node-type-facultades .field.field--name-field-informaci-n-general.field--type-text-long.field--label-hidden{
+		width: 90%;
+		height: auto;
+		margin: 0;
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	.node-type-facultades .field--name-field-informaci-n-general .field__items{
+		display: inline-block;
+	}
+
+	.node-type-facultades .google-map-field{
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.node-type-facultades .field.field--name-field-mapa-facultad.field--type-google-map-field.field--label-hidden{
+		float: none;
+		display: inline-block;
+	}
+	
+	.node-type-facultades .field.field--name-field-sitio-web-2.field--type-text-with-summary.field--label-inline.clearfix{
+		float: none;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	.node-type-facultades .field.field--name-field-foto-1.field--type-image.field--label-hidden{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.node-type-facultades .field.field--name-field-foto-1.field--type-image.field--label-hidden .field__items{
+		width: 320px;
+		margin: 0 auto;
+
+	}
+	.node-type-facultades .field.field--name-field-foto-2.field--type-image.field--label-hidden{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.node-type-facultades .field.field--name-field-foto-2.field--type-image.field--label-hidden .field__items{
+		width: 320px;
+		margin: 0 auto;
+	}
+		.node-type-facultades .google_map_field_display{
+		height: 240px;
+
+	}
+}
+
+
+
+/* Dependencias */
+/*
+.node-type-dependencias .l-content {
+	width: 930px;
+}
+
+.node-type-dependencias .field--name-field-foto-1-d, .node-type-dependencias .field--name-body, .node-type-dependencias .field--name-field-foto-2-d, .node-type-dependencias .field--name-field-datos, .node-type-dependencias .field--name-field-mapa-d, .node-type-dependencias .field--name-field-informaci-n-general-d, .node-type-dependencias .field--name-field-sitio-web, .node-type-dependencias footer {
+	float: left;
+}
+
+.node-type-dependencias .field--name-field-foto-1-d, .node-type-dependencias .field--name-field-foto-2-d {
+	width: 310px;
+	height: 220px;
+	padding-top: 40px;
+}
+
+.node-type-dependencias .field--name-body, .node-type-dependencias .field--name-field-datos {
+	width: 600px;
+	min-height: 325px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+
+.node-type-dependencias .field--name-field-mapa-d {
+	border: 5px solid #BDBDBD;
+	margin-bottom: 50px;
+}
+
+.node-type-dependencias .google_map_field_display {
+	height: 360px;
+	width: 580px;
+}
+
+.node-type-dependencias .field--name-field-sitio-web {
+	margin-top: 350px;
+    margin-left: -290px;
+	padding: 10px 50px;
+	background-color: #00C7F5;
+	box-shadow: 1px 1px #53a7ea,  2px 2px #53a7ea, 3px 3px #53a7ea;
+	color: white;
+}
+
+.node-type-dependencias .field--name-field-sitio-web a{
+	color:white;
+}
+
+.node-type-dependencias .field--name-field-informaci-n-general-d {
+	width: 325px;
+	padding-right: 15px;
+}
+    
+@media only screen and (max-width: 1100px) {
+	.node-type-dependencias .field--name-field-foto-1-d, .node-type-dependencias .field--name-body, .node-type-dependencias .field--name-field-foto-2-d, .node-type-dependencias .field--name-field-datos, .node-type-dependencias .field--name-field-mapa-d, .node-type-dependencias .field--name-field-informaci-n-general-d, .node-type-dependencias .field--name-field-sitio-web {
+	float: none;
+	display: block;
+	width: 80%;
+	overflow: hidden !important;
+	height: initial;
+	min-height: initial;
+	margin: 0 auto;
+}
+
+.node-type-dependencias .l-content {
+	width: 100%;
+}
+
+.node-type-dependencias .field--name-field-sitio-web {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+}
+
+@media only screen and  (max-width: 1299px) {
+	.node-type-dependencias .field--name-field-foto-1-d .field__items, .node-type-dependencias .field--name-field-foto-2-d .field__items {
+		display: inline-block;
+	}
+	
+	.node-type-dependencias .field--name-field-foto-1-d, .node-type-dependencias .field--name-field-foto-2-d  {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:780px) {
+.node-type-dependencias .l-content {
+	width: 100%;
+}
+	.node-type-dependencias .google_map_field_display {
+		height: 200px;
+		width: 300px;
+	}
+	.node-type-dependencias .field--name-field-mapa-d {
+		border: 5px solid #BDBDBD;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		height: 200px;
+		width: 300px;
+	}
+	
+	.node-type-dependencias .field--name-field-foto-1-d .field__items, .node-type-dependencias .field--name-field-foto-2-d .field__items {
+		display: inline-block;
+	}
+	
+	.node-type-dependencias .field--name-field-foto-1-d, .node-type-dependencias .field--name-field-foto-2-d  {
+		text-align: center;
+	}
+	
+	.node-type-dependencias .field--name-field-sitio-web {
+		
+		width: 50% !important;
+	}
+} */
+
+.node-type-facultades .field--name-field-requisitos-admision { width: 100%; clear: both; }

@@ -1,0 +1,132 @@
+.page-noticias .view-header {
+	float: right;
+}
+
+.page-noticias .view-header a {
+		text-decoration: none;
+	color: #003b5c;
+}
+
+.node-type-noticias .pane-1 a {
+	text-decoration: none;
+	color: #003b5c;
+	
+}
+
+.page-node-156 .l-main {
+	width: 1360px;
+	margin: 0 auto;
+}
+
+.page-node-156 .l-main h1 {
+	text-align: center;
+}
+
+.page-node-156 .l-main a {
+	text-decoration: none;
+	color: #003b5c;
+	font-family: sourcesans_bold;
+	line-height: 20px;
+}
+
+.page-node-156 .l-main a:hover {
+	text-decoration: underline;
+
+}
+
+.node-type-noticias .pane-1 a:hover {
+	text-decoration: none;
+	color: #00C6F4;
+	
+}
+
+.node__content .field--name-field-tag- {
+	height: 45px;
+}
+
+.node__content .field--name-field-tag- .field__item {
+	margin-top: 20px;
+    width: auto;
+    display: inline-block;
+	clear: both;
+/*#00C6F4*/
+    padding: 5px 40px;
+    background-color: #B4B6B7;
+    color: white;
+    font-size: 13px;
+	float: right;
+	clear: both;
+}
+
+@media only screen and (min-width: 1150px) {
+.pane-vista-noticias-portada .views-field > .tag {
+	color: #b3b3b3;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.pane-vista-noticias-portada .views-row {
+	float: left;
+	margin-right: 40px;
+}
+
+.pane-vista-noticias-portada .views-row-last {
+	margin-right: 0px;
+}
+
+.not-front select#edit-field-tag-tid.form-select {
+	padding: 5px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+input#edit-field-fecha-noticias-value-value-datepicker-popup-0, input#edit-field-fecha-noticias-value-1-value-datepicker-popup-0 {
+	padding: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+	width: 105px;
+}
+
+}
+@media only screen and (max-width: 1150px) {
+	.pane-vista-noticias-portada .views-row {
+	float: left;
+	margin-right: 30px;
+	min-height: 280px;
+}
+
+input#edit-field-fecha-noticias-value-value-datepicker-popup-0, input#edit-field-fecha-noticias-value-1-value-datepicker-popup-0 {
+
+	width: 105px;
+}
+
+.pane-vista-noticias-portada {
+	width: 670px;
+}
+
+.pane-vista-noticias-portada .views-field > .tag {
+	color: #b3b3b3;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.pane-vista-noticias-portada .views-row-last {
+	margin-right: 0px;
+	clear: both;
+}
+.ver-noticias {
+	padding-top: 530px;
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+	.ver-noticias {
+		padding-top: 0px; 	
+	}
+}
