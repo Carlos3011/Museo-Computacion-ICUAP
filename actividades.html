@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<<head>
   <!--[if IE]><![endif]-->
   <meta charset="utf-8" />
   <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
@@ -246,6 +246,12 @@
 
   <link rel="preload" href="/css/style.css" as="style" />
   <link rel="stylesheet" href="/css/style.css" />
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/dist/material-cards.css">
+
 </head>
 
 <body class="html front not-logged-in page-node">
@@ -783,6 +789,38 @@
     src="/sites/default/files/advagg_js/js__oYq3a9h3HUN6KK4LZioyVAwdioUcfeYSvCW5gKkVTuk__L0IeNiFy-NvAoWoaDOAe2iUhz9Jg1Qt8q5fF59snw3Y__3GNTgxQ9D9qMgIycaoyhS1sQzhI8SNJWGIfb2OgEDvc.js"></script>
   <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=6&cb=769177011"
     async></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    $(function () {
+      $('.material-card > .mc-btn-action').click(function () {
+        var card = $(this).parent('.material-card');
+        var icon = $(this).children('i');
+        icon.addClass('fa-spin-fast');
+
+        if (card.hasClass('mc-active')) {
+          card.removeClass('mc-active');
+
+          window.setTimeout(function () {
+            icon
+              .removeClass('fa-arrow-left')
+              .removeClass('fa-spin-fast')
+              .addClass('fa-bars');
+
+          }, 800);
+        } else {
+          card.addClass('mc-active');
+
+          window.setTimeout(function () {
+            icon
+              .removeClass('fa-bars')
+              .removeClass('fa-spin-fast')
+              .addClass('fa-arrow-left');
+
+          }, 800);
+        }
+      });
+    });
+  </script>
   <!-- Fin de los Scripts -->
 </body>
 
