@@ -244,15 +244,94 @@
   <link rel="preload" href="/css/normalize.css" as="style" />
   <link rel="stylesheet" href="/css/normalize.css" />
 
-  <link rel="preload" href="/css/style.css" as="style" />
-  <link rel="stylesheet" href="/css/style.css" />
+          <div id="navigation">
+            <div class="contenedor-menu">
+              <a hred="#" class="btn-menu">Menu<i class="icono fa fa-bars" aria-hidden="true"></i></a>
+              <ul class="menu">
+                <li>
+                  <a href="/index.html"><img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/home.png" /> Inicio
+                  </a>
+                </li>
 
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/dist/material-cards.css">
+                <li>
+                  <a href="/nosotros.html"><img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/heart.png" /> Nosotros
+                      <img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/flecha_down.png" />
+                  </a>
+                </li>
 
-</head>
+                <li>
+                  <a href="/exposicion.html"><img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/info.png" /> Exposicion
+                      <img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/flecha_down.png"/>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/historia.html"><img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/entrada.png" />
+                      Historia <img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/flecha_down.png" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/galeria.html"><img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/home.png" /> Galeria
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/actividades.html"><img
+                      src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/menu_resp/home.png" /> Actividades
+                  </a>
+                </li>
+
+                
+              </ul>
+            </div>
+          </div>
+
+          <script>
+
+            jQuery('#responsive-menu-button').sidr({
+              name: 'contenedor-menu',
+              side: 'right',
+              source: '#navigation'
+            });
+
+          </script>
+          <script src="//cdn.jsdelivr.net/jquery.touchswipe/1.6.15/jquery.touchSwipe.min.js"></script>
+          <script>
+            $('body').swipe({
+              //Single swipe handler for left swipes
+              swipeLeft: function () {
+                $.sidr('close', 'contenedor-menu');
+              },
+              swipeRight: function () {
+                $.sidr('open', 'contenedor-menu');
+              },
+              //Default is 75px, set to 0 for demo so any distance triggers swipe
+              threshold: 45
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    <!--<div class="l-redes">
+<div class="redes_responsive">
+<a href="#" style="display: none;"><img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/ingles2.png" /></a>
+<a href="https://twitter.com/buapoficial" target="_blank"><img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/twitter.png" alt="Twitter" title="Twitter" /></a>
+<a href="https://www.facebook.com/BUAPoficial" target="_blank"><img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/facebook.png"  alt="Facebook" title="Facebook"/></a>
+<a href="https://instagram.com/buapoficial/" target="_blank"><img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/instagram.png"  alt="Instagram" title="Instagram"/></a>
+<a href="https://www.youtube.com/user/ibuap" target="_blank"><img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/youtube.png"  alt="YouTube" title="YouTube"/></a>
+<a href="http://www.correo.buap.mx" target="_blank"><img src="https://www.buap.mx/sites/all/themes/nuevo_sitio/img/boton_correo_buap.png"  alt="Correo BUAP" title="Correo BUAP"/></a>
+<a href="http://cmas.siu.buap.mx/portal_pprd/wb/contraloria_social/contraloria_social" target="_blank" style="padding-right: 0px"><img src="https://www.buap.mx//sites/all/themes/nuevo_sitio/img/image009.png" /></a>
+</div>
+</div> -->
+  </div>
+</header>
 
 <body class="html front not-logged-in page-node">
   <!-- Inicio del header -->
