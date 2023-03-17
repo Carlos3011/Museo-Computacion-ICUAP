@@ -341,9 +341,9 @@ iframe {
     @media (min-width: 1000px) {
     #timeline .demo-card-wrapper {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: wrap; /*Se cambio el valor*/
         width: 1170px;
-        height: 1650px;
+        /*height: 1650px;*/
         margin: 0 auto;
     }
     }
@@ -437,7 +437,6 @@ iframe {
         letter-spacing: 2px;
         margin: 0;
         padding-bottom: 6px;
-        line-height: 1rem;
     }
     @media (min-width: 480px) {
     #timeline .demo-card .head h2 {
